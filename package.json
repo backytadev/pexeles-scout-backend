@@ -11,6 +11,9 @@
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write ."
   },
+  "_moduleAliases": {
+    "@": "./dist"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
