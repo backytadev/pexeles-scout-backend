@@ -6,7 +6,7 @@ import { AuthController } from '@/controllers/AuthController';
 import { authenticate } from '@/middlewares/auth';
 import { handleInputErrors } from '@/middlewares/validation';
 import { UserRole } from '@/enums/user-role.enum';
-import { setDefaultQueryParams } from '@/middlewares/ser-default-query-params';
+import { setDefaultQueryParams } from '@/middlewares/set-default-query-params';
 
 const router: Router = Router();
 
