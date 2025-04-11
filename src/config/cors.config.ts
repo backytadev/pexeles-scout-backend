@@ -15,3 +15,9 @@ export const corsConfig: CorsOptions = {
     }
   },
 };
+
+export const socketCorsConfig = {
+  origin: process.env.FRONTEND_URL,
+  methods: ['GET', 'POST'],
+  credentials: true,
+};
